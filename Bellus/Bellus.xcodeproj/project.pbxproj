@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0660AF1FFC38C800FF36AC /* Splash_IMG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB0660AE1FFC38C800FF36AC /* Splash_IMG.jpg */; };
+		ABA8E1781FF9A1DA001D2540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8E1771FF9A1DA001D2540 /* AppDelegate.swift */; };
+		ABA8E17A1FF9A1DA001D2540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8E1791FF9A1DA001D2540 /* ViewController.swift */; };
+		ABA8E17D1FF9A1DA001D2540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA8E17B1FF9A1DA001D2540 /* Main.storyboard */; };
+		ABA8E17F1FF9A1DA001D2540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA8E17E1FF9A1DA001D2540 /* Assets.xcassets */; };
+		ABA8E1821FF9A1DA001D2540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA8E1801FF9A1DA001D2540 /* LaunchScreen.storyboard */; };
+		ABA8E18D1FF9A1DA001D2540 /* BellusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8E18C1FF9A1DA001D2540 /* BellusTests.swift */; };
+		ABA8E1981FF9A1DA001D2540 /* BellusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8E1971FF9A1DA001D2540 /* BellusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA8E1891FF9A1DA001D2540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8E16C1FF9A1DA001D2540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA8E1731FF9A1DA001D2540;
+			remoteInfo = Bellus;
+		};
+		ABA8E1941FF9A1DA001D2540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8E16C1FF9A1DA001D2540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA8E1731FF9A1DA001D2540;
+			remoteInfo = Bellus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0660AE1FFC38C800FF36AC /* Splash_IMG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash_IMG.jpg; sourceTree = "<group>"; };
+		ABA8E1741FF9A1DA001D2540 /* Bellus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bellus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8E1771FF9A1DA001D2540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA8E1791FF9A1DA001D2540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA8E17C1FF9A1DA001D2540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA8E17E1FF9A1DA001D2540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA8E1811FF9A1DA001D2540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA8E1831FF9A1DA001D2540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA8E1881FF9A1DA001D2540 /* BellusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8E18C1FF9A1DA001D2540 /* BellusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellusTests.swift; sourceTree = "<group>"; };
+		ABA8E18E1FF9A1DA001D2540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA8E1931FF9A1DA001D2540 /* BellusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8E1971FF9A1DA001D2540 /* BellusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellusUITests.swift; sourceTree = "<group>"; };
+		ABA8E1991FF9A1DA001D2540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA8E1711FF9A1DA001D2540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E1851FF9A1DA001D2540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E1901FF9A1DA001D2540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0660B01FFC399100FF36AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB0660B11FFC39A000FF36AC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB0660B11FFC39A000FF36AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB0660AE1FFC38C800FF36AC /* Splash_IMG.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ABA8E16B1FF9A1DA001D2540 = {
+			isa = PBXGroup;
+			children = (
+				ABA8E1761FF9A1DA001D2540 /* Bellus */,
+				ABA8E18B1FF9A1DA001D2540 /* BellusTests */,
+				ABA8E1961FF9A1DA001D2540 /* BellusUITests */,
+				ABA8E1751FF9A1DA001D2540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA8E1751FF9A1DA001D2540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8E1741FF9A1DA001D2540 /* Bellus.app */,
+				ABA8E1881FF9A1DA001D2540 /* BellusTests.xctest */,
+				ABA8E1931FF9A1DA001D2540 /* BellusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA8E1761FF9A1DA001D2540 /* Bellus */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8E1771FF9A1DA001D2540 /* AppDelegate.swift */,
+				ABA8E1791FF9A1DA001D2540 /* ViewController.swift */,
+				ABA8E17B1FF9A1DA001D2540 /* Main.storyboard */,
+				ABA8E17E1FF9A1DA001D2540 /* Assets.xcassets */,
+				AB0660B01FFC399100FF36AC /* Resources */,
+				ABA8E1801FF9A1DA001D2540 /* LaunchScreen.storyboard */,
+				ABA8E1831FF9A1DA001D2540 /* Info.plist */,
+			);
+			path = Bellus;
+			sourceTree = "<group>";
+		};
+		ABA8E18B1FF9A1DA001D2540 /* BellusTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8E18C1FF9A1DA001D2540 /* BellusTests.swift */,
+				ABA8E18E1FF9A1DA001D2540 /* Info.plist */,
+			);
+			path = BellusTests;
+			sourceTree = "<group>";
+		};
+		ABA8E1961FF9A1DA001D2540 /* BellusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8E1971FF9A1DA001D2540 /* BellusUITests.swift */,
+				ABA8E1991FF9A1DA001D2540 /* Info.plist */,
+			);
+			path = BellusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA8E1731FF9A1DA001D2540 /* Bellus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8E19C1FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "Bellus" */;
+			buildPhases = (
+				ABA8E1701FF9A1DA001D2540 /* Sources */,
+				ABA8E1711FF9A1DA001D2540 /* Frameworks */,
+				ABA8E1721FF9A1DA001D2540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bellus;
+			productName = Bellus;
+			productReference = ABA8E1741FF9A1DA001D2540 /* Bellus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA8E1871FF9A1DA001D2540 /* BellusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8E19F1FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "BellusTests" */;
+			buildPhases = (
+				ABA8E1841FF9A1DA001D2540 /* Sources */,
+				ABA8E1851FF9A1DA001D2540 /* Frameworks */,
+				ABA8E1861FF9A1DA001D2540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA8E18A1FF9A1DA001D2540 /* PBXTargetDependency */,
+			);
+			name = BellusTests;
+			productName = BellusTests;
+			productReference = ABA8E1881FF9A1DA001D2540 /* BellusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA8E1921FF9A1DA001D2540 /* BellusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8E1A21FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "BellusUITests" */;
+			buildPhases = (
+				ABA8E18F1FF9A1DA001D2540 /* Sources */,
+				ABA8E1901FF9A1DA001D2540 /* Frameworks */,
+				ABA8E1911FF9A1DA001D2540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA8E1951FF9A1DA001D2540 /* PBXTargetDependency */,
+			);
+			name = BellusUITests;
+			productName = BellusUITests;
+			productReference = ABA8E1931FF9A1DA001D2540 /* BellusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA8E16C1FF9A1DA001D2540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Corporation Awesome";
+				TargetAttributes = {
+					ABA8E1731FF9A1DA001D2540 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ABA8E1871FF9A1DA001D2540 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABA8E1731FF9A1DA001D2540;
+					};
+					ABA8E1921FF9A1DA001D2540 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABA8E1731FF9A1DA001D2540;
+					};
+				};
+			};
+			buildConfigurationList = ABA8E16F1FF9A1DA001D2540 /* Build configuration list for PBXProject "Bellus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA8E16B1FF9A1DA001D2540;
+			productRefGroup = ABA8E1751FF9A1DA001D2540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA8E1731FF9A1DA001D2540 /* Bellus */,
+				ABA8E1871FF9A1DA001D2540 /* BellusTests */,
+				ABA8E1921FF9A1DA001D2540 /* BellusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA8E1721FF9A1DA001D2540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0660AF1FFC38C800FF36AC /* Splash_IMG.jpg in Resources */,
+				ABA8E1821FF9A1DA001D2540 /* LaunchScreen.storyboard in Resources */,
+				ABA8E17F1FF9A1DA001D2540 /* Assets.xcassets in Resources */,
+				ABA8E17D1FF9A1DA001D2540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E1861FF9A1DA001D2540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E1911FF9A1DA001D2540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA8E1701FF9A1DA001D2540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8E17A1FF9A1DA001D2540 /* ViewController.swift in Sources */,
+				ABA8E1781FF9A1DA001D2540 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E1841FF9A1DA001D2540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8E18D1FF9A1DA001D2540 /* BellusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8E18F1FF9A1DA001D2540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8E1981FF9A1DA001D2540 /* BellusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA8E18A1FF9A1DA001D2540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA8E1731FF9A1DA001D2540 /* Bellus */;
+			targetProxy = ABA8E1891FF9A1DA001D2540 /* PBXContainerItemProxy */;
+		};
+		ABA8E1951FF9A1DA001D2540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA8E1731FF9A1DA001D2540 /* Bellus */;
+			targetProxy = ABA8E1941FF9A1DA001D2540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA8E17B1FF9A1DA001D2540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA8E17C1FF9A1DA001D2540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA8E1801FF9A1DA001D2540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA8E1811FF9A1DA001D2540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA8E19A1FF9A1DB001D2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA8E19B1FF9A1DB001D2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA8E19D1FF9A1DB001D2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bellus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.Bellus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA8E19E1FF9A1DB001D2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bellus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.Bellus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA8E1A01FF9A1DB001D2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.BellusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bellus.app/Bellus";
+			};
+			name = Debug;
+		};
+		ABA8E1A11FF9A1DB001D2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.BellusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bellus.app/Bellus";
+			};
+			name = Release;
+		};
+		ABA8E1A31FF9A1DB001D2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.BellusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bellus;
+			};
+			name = Debug;
+		};
+		ABA8E1A41FF9A1DB001D2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corp-Awesome.BellusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bellus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA8E16F1FF9A1DA001D2540 /* Build configuration list for PBXProject "Bellus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8E19A1FF9A1DB001D2540 /* Debug */,
+				ABA8E19B1FF9A1DB001D2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8E19C1FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "Bellus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8E19D1FF9A1DB001D2540 /* Debug */,
+				ABA8E19E1FF9A1DB001D2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8E19F1FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "BellusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8E1A01FF9A1DB001D2540 /* Debug */,
+				ABA8E1A11FF9A1DB001D2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8E1A21FF9A1DB001D2540 /* Build configuration list for PBXNativeTarget "BellusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8E1A31FF9A1DB001D2540 /* Debug */,
+				ABA8E1A41FF9A1DB001D2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA8E16C1FF9A1DA001D2540 /* Project object */;
+}
