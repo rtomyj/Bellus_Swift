@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,23 +15,33 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bellus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWK-Yb-XLp">
-                                <rect key="frame" x="162" y="48" width="89" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bellus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWK-Yb-XLp">
+                                <rect key="frame" x="173" y="40" width="68" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UWK-Yb-XLp" secondAttribute="height" multiplier="89:45" id="7Id-pO-JgP"/>
+                                    <constraint firstAttribute="width" secondItem="UWK-Yb-XLp" secondAttribute="height" multiplier="89:45" id="IqU-H6-pCA"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Splash_IMG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jfs-Xv-tMo">
-                                <rect key="frame" x="8" y="157" width="399" height="422"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash_IMG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jfs-Xv-tMo">
+                                <rect key="frame" x="-8" y="99" width="430" height="462"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.52378008347643135" green="0.0" blue="0.92633645304568524" alpha="0.77664811643835618" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jfs-Xv-tMo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-8" id="26X-Rg-Wvc"/>
+                            <constraint firstItem="jfs-Xv-tMo" firstAttribute="centerX" secondItem="UWK-Yb-XLp" secondAttribute="centerX" id="7e2-Jc-ePH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jfs-Xv-tMo" secondAttribute="bottom" constant="175" id="GgY-6X-q5g"/>
+                            <constraint firstItem="jfs-Xv-tMo" firstAttribute="top" secondItem="UWK-Yb-XLp" secondAttribute="bottom" constant="25" id="NJs-DI-KBh"/>
+                            <constraint firstItem="UWK-Yb-XLp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qs6-aV-deA"/>
+                            <constraint firstItem="UWK-Yb-XLp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hRY-Oh-Pp2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
